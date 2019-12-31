@@ -13,12 +13,28 @@ for x in range(len(codeslice)):
 
     if command == "a":
         values = bar.rsplit("{")
-        location1 = values[1]
-        location2 = values[2]
-        d1 = memory[int(location1)]
-        d2 = memory[int(location2)]
-        add = int(d1) + int(d2)
+        add = int(memory[int(values[1])]) + int(memory[int(values[2])])
         memory.append(add)
+
+    if command == "s":
+        values = bar.rsplit("{")
+        subtract = int(memory[int(values[1])]) - int(memory[int(values[2])])
+        memory.append(subtract)
+
+    if command == "m":
+        values = bar.rsplit("{")
+        multiply = int(memory[int(values[1])]) * int(memory[int(values[2])])
+        memory.append(multiply)
+
+    if command == "d":
+        values = bar.rsplit("{")
+        divide = int(memory[int(values[1])]) / int(memory[int(values[2])])
+        memory.append(divide)
+
+    if command == "p":
+        values = bar.rsplit("{")
+        press = str(memory[int(values[1])]) + str(memory[int(values[2])])
+        memory.append(press)
 
     if command == "o":
         place = bar[2:]
