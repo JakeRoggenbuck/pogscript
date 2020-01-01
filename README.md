@@ -21,6 +21,7 @@ For each command use `>` in front
 For each operator the formate is consistent 
 `>a{0{1`
 <br>
+
 This adds memory location 0 and 1
 `>m{0{1`
 This multiplies memory locations 0 and 1 
