@@ -1,4 +1,4 @@
-##PogScript
+@@PogScript
 
 >v(3
 >v(5
@@ -7,6 +7,6 @@
 
 >o(2
 
->a{0{2
+>p{0{2
 
 >o(3
