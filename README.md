@@ -1,8 +1,8 @@
 # pogscript
 
-for syntax add `@@PogScript` to the top of the file
+For syntax add `@@PogScript` to the top of the file
 
-for each command use `>` in front
+For each command use `>` in front
 
 ## Commands
 * `v` for value
@@ -18,7 +18,7 @@ for each command use `>` in front
 * `d` for divide
 * `p` for push
 
-for each operator the formate is consistent 
+For each operator the formate is consistent 
 `>a{0{1`
 <br>
 This adds memory location 0 and 1
