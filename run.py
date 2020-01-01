@@ -36,6 +36,10 @@ for x in range(len(codeslice)):
         press = str(memory[int(values[1])]) + str(memory[int(values[2])])
         memory.append(press)
 
+    if command == "c":
+        char = chr(int(memory[int(bar[2:])]))
+        memory.append(char)
+
     if command == "o":
         place = bar[2:]
         print(memory[int(place)])
