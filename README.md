@@ -1,4 +1,5 @@
-# pogscript
+# Pogscript
+### Pogscript, Overtly, Great, Script
 
 For syntax add `@@PogScript` to the top of the file
 
