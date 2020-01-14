@@ -12,6 +12,9 @@ For each command use `>` in front
 * `o` for output
 `>o(0` This outputs memory location 0
 
+* `i` for input
+`>i(Prompt: ` This outputs memory location 0
+
 ## Operators
 * `a` for add;
 * `s` for subtract

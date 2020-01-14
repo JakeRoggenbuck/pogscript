@@ -40,6 +40,11 @@ for x in range(len(codeslice)):
         char = chr(int(memory[int(bar[2:])]))
         memory.append(char)
 
+    if command == "i":
+        prompt = bar[2:]
+        intake = input(prompt)
+        memory.append(intake)
+
     if command == "o":
         place = bar[2:]
         print(memory[int(place)])
